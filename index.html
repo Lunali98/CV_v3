@@ -1,221 +1,330 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Resume/CV Design</title>
-    <link rel="stylesheet" href="./icons.css">
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
-<div class="resume">
-    <div class="resume_left">
-        <div class="resume_profile">
-            <img src="./img/Photo.jpg" alt="profile_pic">
-        </div>
-        <div class="resume_content">
-            <div class="resume_item resume_info">
-                <div class="title">
-                    <p class="bold">bulavkin danila</p>
-                    <p class="regular">Digital Humanities researcher, Project manager, 23 y.o.</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="icon">
-                            <i class="fas fa-map-signs"></i>
-                        </div>
-                        <div class="data">
-                            Saint-Petersburg <br /> Russia
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <i class="fas fa-phone-square-alt"></i>
-                        </div>
-                        <div class="data">
-                            +79994958689
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="data">
-                            danila.bulavkin<br>@gmail.com
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="resume_item resume_skills">
-                <div class="title">
-                    <p class="bold">skill's</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="skill_name">
-                            JIRA, Confluence, Trello
-                        </div>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
-                    </li>
+body {
+    margin: 0;
+    background: url("./img/Background2.jpg");
+    background-size: cover;
+}
 
-                    <li>
-                        <div class="skill_name">
-                            Tableau, Datawrapper, OpenRefine
-                            <br>
-                            <br>
-                            SQL, Pandas, NumPy (basics)
-                        </div>
-                    </li>
-                    <li>
-                        <div class="skill_name">
-                            Figma, Infogram, HTML, CSS
-                        </div>
-
-                    </li>
-                </ul>
-            </div>
-            <div class="resume_item resume_social">
-                <div class="title">
-                    <p class="bold">Social</p>
-                </div>
-                <ul>
-                    <li>
-                        <div class="icon">
-                            <i class="fab fa-vk"></i>
-                        </div>
-                        <div class="data">
-                            <p class="semi-bold"><a class="soc" href="https://vk.com/lovewill93">Vkontakte</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div class="data">
-                            <p class="semi-bold"><a class="soc" href="https://www.linkedin.com/in/danilabulavkin">LinkedIn</a></p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                        <div class="data">
-                            <p class="semi-bold"><a class="soc" href="https://www.instagram.com/punckudellic/">Instagram</a></p>
-                        </div>
-                    </li>
-                </ul>
-                <br>
-                <br>
-                <br>
-                <form action="https://t.me/DanilaBulavkin">
-                    <button class="fun">Message me</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="resume_right">
-        <div class="resume_item resume_about">
-            <div class="title">
-                <p class="bold">About me</p>
-            </div>
-            <p>Obtaining, processing and analyzing cultural and social data. Thanks to technical competencies, I successfully adapt humanities background to work in the IT field.
-                <br>Responsible, motivated, sociable. I work effectively both in a team and independently.</p>
-        </div>
-        <div class="resume_item resume_work">
-            <div class="title">
-                <p class="bold">Work Experience</p>
-            </div>
-            <ul>
-                <li>
-                    <div class="date">2017 - 2018</div>
-                    <div class="info">
-                        <div class="first"></div>
-                        <p class="semi-bold">Tomsk State University</p>
-                        <p>Organization of the Network Program of Profile Training High school students "Prebachelor Liberal Arts TSU".
-                    </div>
-                </li>
-                <li>
-                    <div class="date">2021</div>
-                    <div class="info">
-                        <div class="second"></div>
-                        <p class="semi-bold"> Cultural space "Sun of the North"</p>
-                        <p>Administration and co-ordination, supervision, coordination of audience and speakers, advertising.
-
-                            Successful coordination of three educational courses.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="date">2020 - Present</div>
-                    <div class="info">
-                        <div class="third"></div>
-                        <p class="semi-bold">ITMO University</p>
-                        <p> Management and development of a <a
-                                href="https://www.figma.com/community/file/1035194220752043959">media product</a> for the Museum of the History of Religion (work in progress), Internship<br>
-                            Organization of <a href="https://dh.itmo.ru/spbdhweek">IT Event</a>: 24 Workshops and Lectures, 780 total registrations<br>
-                            Working in the international media-project <a href="https://cultures-of-remembrance.com/">"Cultures of Remembrance" </a>(Berlin)<br>
-                            Management and development of a narrative telegram bot<br>
-                            Supervising 4 groups of students in a creative technology course<br></p>
-                    </div>
-                </li>
-                <li>
-                    <div class="date">2021 - Present</div>
-                    <div class="info">
-                        <div class="fourth"></div>
-                        <p class="semi-bold"><a href="https://vas3k.club/project/10399/">Buddy</a></p>
-                        <p> Co-founder of the mentoring project Buddy. Launching a Telegram bot and brand media on the Ghost engine.
-                            The project has already helped 200 schoolchildren and students find their mentor. The mentor base has about 70 regular participants.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="resume_item resume_education">
-            <div class="title">
-                <p class="bold">Education</p>
-            </div>
-            <ul>
-                <li>
-                    <div class="date">2016-2020</div>
-                    <div class="info1">
-                        <p class="semi-bold">Tomsk State University</p>
-                        <p>Philosophy (Ontology and Theory of Knowledge)</p>
-                        <p>Oxford Russian Scholarship Fund Fellow</p>
-                        <br>
-                    </div>
-                </li>
-                <li>
-
-                    <div class="date">2020 - 2022</div>
-                    <div class="info">
-                        <div class="info2"></div>
-                        <p class="semi-bold">ITMO University (Saint-Petersburg)</p>
-                        <p>Data, Culture and Visualization (Cultural Analytics)</p>
-                        <p>Participation in grant research projects (<a href="https://drive.google.com/drive/folders/1Cv1uXOTyI2d4WdtQoEgVLgNQ2CBNLNd-?usp=sharing">NLP, Data analysis,</a>
-                            <a href="https://dh-abstracts.library.cmu.edu/works/9463">Computer Vision (Ottawa)</a>)</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="date">June-July 2021</div>
-                    <div class="info">
-                        <div class="info3"></div>
-                        <p class="semi-bold">Simbirsoft Intensive (Hackathon)</p>
-                        <p>AgroTech Application Development Management</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="date">November-December 2021</div>
-                    <div class="info">
-                            <div class="info4"></div>
-                        <p class="semi-bold">Scince Media (data journalism hackathon)</p>
-                        <p>Online stage finalist</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
 
 
-    </div>
-</div>
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.semi-bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
 
-</body>
-</html>
+.resume .resume_left {
+    width: 300px;
+    background: rgb(21, 181, 169);
+}
+
+.resume .resume_left .resume_profile{
+    width: 100%;
+    height: 280px;
+}
+
+.resume .resume_left .resume_profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.resume .resume_left .resume_content{
+    padding: 0 25px;
+    width: 280px;
+    height: auto;
+}
+
+.resume .title {
+    margin-bottom: 20px;
+}
+
+.resume .resume_left .bold{
+    color: #fff;
+}
+
+.resume .resume_left .regular {
+    color: #ffffff;
+}
+
+.resume .resume_item{
+    padding: 25px 0;
+    border-bottom: 2px solid #ffffff;
+}
+.resume .resume_item:last-child{
+    border-bottom: 0;
+}
+
+.resume .resume_left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resume .resume_left ul li .icon{
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
+    color: rgb(21, 181, 169);
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resume .resume_left ul li .data {
+    color: beige;
+}
+
+.resume .resume_left .resume_skills ul li {
+    color: beige;
+    font-size: 16px;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+
+    font-size: 18px;
+    font-weight: semi-bold;
+
+}
+.resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #2b2b2b;
+    position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+    width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+}
+
+.resume .resume_right {
+    width: 520px;
+    background: #ffffff;
+    padding: 25px;
+}
+
+.resume .resume_right .bold {
+    color: #15b5a9;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume .resume_right ul li {
+    position: relative;
+}
+
+.resume .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+    margin-bottom: 20px;
+
+}
+
+.resume .resume_right .resume_item{
+    border-bottom: 2px solid #1a8e88;}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child{
+    border-bottom: 0;
+}
+
+.resume .resume_right ul li:last-child .info {
+    margin-bottom: 0
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -26px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #15b5a9;
+}
+
+.resume .resume_right .resume_work ul li .first:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 122px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_work ul li .second:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 142px;
+    background: #15b5a9;}
+
+.resume .resume_right .resume_work ul li .third:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 275px;
+    background: #15b5a9;}
+
+.resume .resume_right .resume_work ul li .fourth:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 248px;
+    background: #15b5a9;}
+}
+
+
+.resume .resume_right .resume_education ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 100px;
+    background: #15b5a9;}
+
+.resume .resume_right .resume_education ul li .info2:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 123px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_education ul li .info3:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 85px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_education ul li .info4:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 123px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_education ul li .info1:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 102px;
+    background: #15b5a9;
+}
+
+
+
+
+.fun {
+    border-radius: 12px;
+    font-size: 25px;
+    width: 230px;
+    height: 80px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: .5em 1.25em;
+    background: linear-gradient(90deg, rgb(41, 162, 155), #1a8e88);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 350ms;
+}
+
+.fun:hover {
+    background-position: right;
+}
+
+a:link, a:active {
+    color: #0d4744;
+    font-weight:bold;
+    text-decoration:none
+}
+a:visited {
+    color: #0d4744;
+    font-weight:bold;
+    text-decoration:none
+}
+.soc:hover {
+    color: beige;
+    font-weight:bold;
+    text-decoration:none}
+a:hover {
+    color: #29a29b;
+    font-weight:bold;
+    text-decoration:none
+}
+
